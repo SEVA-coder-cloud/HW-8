@@ -1,0 +1,21 @@
+body{
+    display: flex;
+}
+ul{
+    display: inline-block;
+}
+ul:first-child li{
+    color: red;
+}
+ul:nth-child(4) li{
+    color: green;
+}
+ul:last-child li{
+    color: blue;
+}
+ul:nth-last-child(3) li{
+    color: orange;
+}
+ul:nth-of-type(0n+2) li{
+    color: brown;
+}
